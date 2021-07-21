@@ -10,7 +10,9 @@
                     </div>
                 </#if>
 
-                <#-- Insert 07-social-portal-normal here -->
+                <div class="ml-md-auto mt-3 mt-md-0">
+                    <#include "${full_templates_path}/social_media.ftl" />
+                </div>
             </div>
 
             <div class="border-secondary border-top col-12 mt-5 pt-5">
