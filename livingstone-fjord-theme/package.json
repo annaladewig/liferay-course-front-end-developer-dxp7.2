@@ -10,7 +10,19 @@
 		"fontAwesome": true,
 		"screenshot": "",
 		"templateLanguage": "ftl",
-		"version": "7.2"
+		"version": "7.2",
+		"themeletDependencies": {
+			"widget-dropzone-themelet": {
+				"liferayTheme": {
+					"screenshot": "",
+					"themelet": true,
+					"version": "7.2"
+				},
+				"name": "widget-dropzone-themelet",
+				"version": "1.0.0",
+				"path": "/home/me/.npm-global/lib/node_modules/widget-dropzone-themelet"
+			}
+		}
 	},
 	"devDependencies": {
 		"compass-mixins": "0.12.10",
@@ -30,5 +42,8 @@
 		"status": "gulp status",
 		"upgrade": "gulp upgrade",
 		"watch": "gulp watch"
+	},
+	"dependencies": {
+		"widget-dropzone-themelet": "file:../../.npm-global/lib/node_modules/widget-dropzone-themelet"
 	}
 }
